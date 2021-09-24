@@ -10,7 +10,7 @@ filename = "/Users/anna/Documents/Documents/University /4 курс/ИнтСИС/
 df = pd.read_table(filename, sep=",")
 
 
-data = df.iloc[:, [0, 2, 4, 10]].values
+data = df.iloc[:, [0, 2, 4, 10, 11, 12]].values
 
 wcss = []
 for i in range(1, 15):

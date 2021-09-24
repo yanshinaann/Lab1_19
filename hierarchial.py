@@ -13,7 +13,7 @@ link_method = 'ward'
 df = pd.read_table(filename, sep=",")
 
 
-data = df.iloc[:, [0, 2, 4, 10]].values
+data = df.iloc[:, [0, 2, 4, 10, 11, 12]].values
 
 linked = linkage(data, method=link_method)
 
